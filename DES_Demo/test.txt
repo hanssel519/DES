@@ -1,0 +1,4 @@
+2.6.2 The Data Encryption Standard (DES)
+In 1977 the National Bureau of Standards announced a Data Encryption Standard to be used in unclassified U.S. Government applications [NBS77]. The encryption algorithm was developed at IBM, and was the outgrowth of LUCIFER.
+   DES enciphers 64-bit blocks of data with a 56-bit key. There is disagreement over whether a 56-bit key is sufficiently strong; we shall discuss this controversy after describing the algorithm. 
+   The algorithm-which is used both to encipher and to decipher-is summarized in Figure 2.13. An input block T is first transposed under an initial permutation IP, giving T(0)=IP(T). After it has passed through 16 iterations of a function f, it is transposed under the inverse permutation IP(-1) to give the final result.
